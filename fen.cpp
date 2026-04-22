@@ -40,7 +40,7 @@ public:
         return prefixSum(r) - prefixSum(l - 1);
     }
 };
-
+ // this is the main code block
 int main() {
     vector<int> arr = {1, 3, 5, 7, 9, 11};
     FenwickTree ft(arr);
