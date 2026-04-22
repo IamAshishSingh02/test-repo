@@ -9,7 +9,7 @@ public:
     FenwickTree(int n) {
         this->n = n;
         bit.assign(n + 1, 0);
-    }
+    }// hello ashish kaise ho
 
     FenwickTree(vector<int>& arr) {
         n = arr.size();
